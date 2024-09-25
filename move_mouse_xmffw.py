@@ -23,6 +23,6 @@ while True:
 
     time.sleep(0.1)  # Sleep for a short time and check again
 
-# Once Alt is released, get the new active window
+# Once Alt is released, move the mouse to the new active window
 subprocess.run(["xdotool", "keyup", "Alt"])  # Release Alt
 subprocess.run(["xmffw"])                    # Execute xmffw
