@@ -17,3 +17,6 @@ For ej on my keyboard and keyboard layout KEYBOARD_ID is 9 and ALT_KEYCODE is 64
 ## Dependencies
 - xdotool (For both scripts)
 - xinput (For the AutoKey script)
+
+## Extra
+While putting the tags for this repository I found this project that you might want to give a try [XMouseFollowFocusedWindow](https://github.com/Vasil-Todorov/XMouseFollowFocusedWindow)
