@@ -14,9 +14,16 @@ So for that to work correctly you need to fill the KEYBOARD_ID and ALT_KEYCODE v
 
 For ej on my keyboard and keyboard layout KEYBOARD_ID is 9 and ALT_KEYCODE is 64
 
+### xmffw alternative
+An alternative version of the AutoKey script but it uses [XMouseFollowFocusedWindow](https://github.com/Vasil-Todorov/XMouseFollowFocusedWindow) as the program to move the mouse.
+
+It also requires to configure the KEYBOARD_ID and ALT_KEYCODE variables like on the other script, but at this point you should be able to change the little amount of script that I'm using to execute the program an change it for something else.
+
 ## Dependencies
 - xdotool (For both scripts)
+- Autokey for the python scripts, unless you run them with something else.
 - xinput (For the AutoKey script)
+- [xmffw](https://github.com/Vasil-Todorov/XMouseFollowFocusedWindow) (For the xmffw alternative script)
 
 ## Extra
 While putting the tags for this repository I found this project that you might want to give a try [XMouseFollowFocusedWindow](https://github.com/Vasil-Todorov/XMouseFollowFocusedWindow)
