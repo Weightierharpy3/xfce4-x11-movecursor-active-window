@@ -1,3 +1,6 @@
+import subprocess
+import time
+
 # AutoKey script to use with xmffw.
 
 # It's designed to use alt tab so I could alt tab and execute the script
